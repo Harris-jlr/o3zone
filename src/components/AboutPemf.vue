@@ -26,14 +26,7 @@
         </div>
       </div>
     </div>
-    <div class="rte featured-row__subtext textarea text-link-animated">
-        <ul>
-            <li><strong>Exclusive Amethyst Aura Gemstones:</strong> These stones undergo a specialized galvanic process, enhancing their energy properties and providing a radiant, shimmering finish</li>
-            <li><strong>Enhanced Energy Flow:</strong> The treatment amplifies the gemstones’ ability to promote mental clarity, emotional balance, and improved energy flow.</li>
-            <li><strong>Therapeutic Elegance:</strong> Combines the beauty of the gemstones with PEMF, far-infrared heat, and negative ion therapy to deliver a truly elevated wellness experience.</li>
-            <li><strong>Luxury Meets Functionality:</strong> Perfect for those seeking both an aesthetic and functional approach to physical and mental well-being.</li>
-        </ul>
-    </div>
+    
     <div>
         <div id="shopify-section-template--17762366881844__cards_dfqnBp" class="shopify-section"><link href="//healthyline.com/cdn/shop/t/2/assets/section-cards.css?v=171430722290224734931734013253" rel="stylesheet" type="text/css" media="all">
 
@@ -49,7 +42,7 @@
                     </div>
                     <div class="m-0 p-0 border-0">
                       <p class="font-bold text-2xl">0.5-4Hz</p>
-                      <p class="cards__item__text">
+                      <p class="flex-1 leading-6">
                         For deep sleep enhancement, and recovery from physical exhaustion
                       </p>
                     </div>
@@ -63,7 +56,7 @@
                     </div>
                     <div class="m-0 p-0 border-0">
                       <p class="font-bold text-2xl">4 - 7Hz</p>
-                      <p class="cards__item__text">
+                      <p class="flex-1 leading-6">
                         To assist creativity, memory, emotional balance; meditation aids
                       </p>
                     </div>
@@ -77,7 +70,7 @@
                     </div>
                     <div class="m-0 p-0 border-0">
                       <p class="font-bold text-2xl">7 - 12Hz</p>
-                      <p class="cards__item__text">
+                      <p class="flex-1 leading-6">
                         For improving learning and calm focus; for overall mental clarity. Great for maintaining a relaxed alertness
                       </p>
                     </div>
@@ -91,7 +84,7 @@
                     </div>
                     <div class="m-0 p-0 border-0">
                       <p class="font-bold text-2xl">12 - 30Hz</p>
-                      <p class="cards__item__text">
+                      <p class="flex-1 leading-6">
                         For Performance-enhancing; Heightened attention,<br>quick thinking
                       </p>
                     </div>
@@ -106,9 +99,9 @@
     <div>
         <div id="shopify-section-template--17762366881844__cards_nUem3T" class="shopify-section"><link href="//healthyline.com/cdn/shop/t/2/assets/section-cards.css?v=171430722290224734931734013253" rel="stylesheet" type="text/css" media="all">
 
-            <div class="cards">
+            <div class="bg-green-50 p-12">
               
-                <h2 class="cards__title">
+                <h2 class="text-center mb-12 text-gray-800 text-3xl leading-10 tracking-wider">
                   Lined with a Layer of Natural Gemstones
                 </h2>
               
@@ -122,7 +115,7 @@
                     </div>
                     <div class="m-0 p-0 border-0">
                       <p class="font-bold text-2xl">Tourmaline</p>
-                      <p class="cards__item__text">
+                      <p class="flex-1 leading-6">
                         Grounding stone that shields against negativity, reduces pain, aids in sleep
                       </p>
                     </div>
@@ -136,7 +129,7 @@
                     </div>
                     <div class="m-0 p-0 border-0">
                       <p class="font-bold text-2xl">Amethyst</p>
-                      <p class="cards__item__text">
+                      <p class="flex-1 leading-6">
                         Elevates spirituality, offers peace, known as nature’s  “stress protector”
                       </p>
                     </div>
@@ -150,7 +143,7 @@
                     </div>
                     <div class="m-0 p-0 border-0">
                       <p class="font-bold text-2xl">Jade</p>
-                      <p class="cards__item__text">
+                      <p class="flex-1 leading-6">
                         Brings fortune, friendship, and emotional healing
                       </p>
                     </div>
@@ -176,7 +169,7 @@
                     </div>
                     <div class="m-0 p-0 border-0">
                       <p class="font-bold text-2xl">Quartz</p>
-                      <p class="cards__item__text">
+                      <p class="flex-1 leading-6">
                         Amplifies energy and promotes clarity and healing
                       </p>
                     </div>
