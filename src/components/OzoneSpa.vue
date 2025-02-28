@@ -1,0 +1,188 @@
+<template>
+<div>
+
+    <div class="custom-benefits custom-benefits--desktop">
+        <div class="custom-benefits__item">
+            <img src="//healthyline.com/cdn/shop/files/Melt_Away_Daily_Stress.svg?v=1727200984"> 
+            <p>Feel Relaxed</p>
+        </div> 
+        <div class="custom-benefits__item">
+                <img src="//healthyline.com/cdn/shop/files/Ease_Muscle_Tension_Instantly.svg?v=1727200984"> 
+            <p>Ease Muscle Tension</p></div> <div class="custom-benefits__item">
+                <img src="//healthyline.com/cdn/shop/files/Unlock_Restful_Deep_Sleep.svg?v=1727200984"> 
+            <p>Unlock Restful, Deep Sleep</p></div> <div class="custom-benefits__item">
+                <img src="//healthyline.com/cdn/shop/files/Boost_Circulation_for_Total_Vitality.svg?v=1727200984"> 
+            <p>Boost Circulation Where Applied</p></div> <div class="custom-benefits__item">
+                <img src="//healthyline.com/cdn/shop/files/Fast-Track_Your_Recovery.svg?v=1727200984"> 
+            <p>Fast-Track Your Recovery</p></div> <div class="custom-benefits__item">
+                <img src="//healthyline.com/cdn/shop/files/Power_Up_Your_Energy_Levels_Naturally.svg?v=1727200984"> 
+            <p>Power Up Your Energy Levels Naturally</p>
+        </div>
+    </div>
+    <div class="rte featured-row__subtext textarea text-link-animated">
+        <ul>
+            <li><strong>Exclusive Amethyst Aura Gemstones:</strong> These stones undergo a specialized galvanic process, enhancing their energy properties and providing a radiant, shimmering finish</li>
+            <li><strong>Enhanced Energy Flow:</strong> The treatment amplifies the gemstones’ ability to promote mental clarity, emotional balance, and improved energy flow.</li>
+            <li><strong>Therapeutic Elegance:</strong> Combines the beauty of the gemstones with PEMF, far-infrared heat, and negative ion therapy to deliver a truly elevated wellness experience.</li>
+            <li><strong>Luxury Meets Functionality:</strong> Perfect for those seeking both an aesthetic and functional approach to physical and mental well-being.</li>
+        </ul>
+    </div>
+    <div>
+        <div id="shopify-section-template--17762366881844__cards_dfqnBp" class="shopify-section"><link href="//healthyline.com/cdn/shop/t/2/assets/section-cards.css?v=171430722290224734931734013253" rel="stylesheet" type="text/css" media="all">
+
+            <div class="cards">
+              
+              <div class="cards__container">
+                
+                  <div class="cards__item">
+                    <div class="cards__item__image-wrapper">
+                      
+                        <img src="//healthyline.com/cdn/shop/files/icon_14.png?crop=center&amp;height=1024&amp;v=1739199300&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/icon_14.png?crop=center&amp;height=1024&amp;v=1739199300&amp;width=352 352w, //healthyline.com/cdn/shop/files/icon_14.png?crop=center&amp;height=1024&amp;v=1739199300&amp;width=832 832w, //healthyline.com/cdn/shop/files/icon_14.png?crop=center&amp;height=1024&amp;v=1739199300&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
+                      
+                    </div>
+                    <div class="cards__item__content-wrapper">
+                      <p class="cards__item__title">0.5-4Hz</p>
+                      <p class="cards__item__text">
+                        For deep sleep enhancement, and recovery from physical exhaustion
+                      </p>
+                    </div>
+                  </div>
+                
+                  <div class="cards__item">
+                    <div class="cards__item__image-wrapper">
+                      
+                        <img src="//healthyline.com/cdn/shop/files/icon_15.png?crop=center&amp;height=1024&amp;v=1739199754&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/icon_15.png?crop=center&amp;height=1024&amp;v=1739199754&amp;width=352 352w, //healthyline.com/cdn/shop/files/icon_15.png?crop=center&amp;height=1024&amp;v=1739199754&amp;width=832 832w, //healthyline.com/cdn/shop/files/icon_15.png?crop=center&amp;height=1024&amp;v=1739199754&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
+                      
+                    </div>
+                    <div class="cards__item__content-wrapper">
+                      <p class="cards__item__title">4 - 7Hz</p>
+                      <p class="cards__item__text">
+                        To assist creativity, memory, emotional balance; meditation aids
+                      </p>
+                    </div>
+                  </div>
+                
+                  <div class="cards__item">
+                    <div class="cards__item__image-wrapper">
+                      
+                        <img src="//healthyline.com/cdn/shop/files/icon_16.png?crop=center&amp;height=1024&amp;v=1739199900&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/icon_16.png?crop=center&amp;height=1024&amp;v=1739199900&amp;width=352 352w, //healthyline.com/cdn/shop/files/icon_16.png?crop=center&amp;height=1024&amp;v=1739199900&amp;width=832 832w, //healthyline.com/cdn/shop/files/icon_16.png?crop=center&amp;height=1024&amp;v=1739199900&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
+                      
+                    </div>
+                    <div class="cards__item__content-wrapper">
+                      <p class="cards__item__title">7 - 12Hz</p>
+                      <p class="cards__item__text">
+                        For improving learning and calm focus; for overall mental clarity. Great for maintaining a relaxed alertness
+                      </p>
+                    </div>
+                  </div>
+                
+                  <div class="cards__item">
+                    <div class="cards__item__image-wrapper">
+                      
+                        <img src="//healthyline.com/cdn/shop/files/icon_17.png?crop=center&amp;height=1024&amp;v=1739200081&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/icon_17.png?crop=center&amp;height=1024&amp;v=1739200081&amp;width=352 352w, //healthyline.com/cdn/shop/files/icon_17.png?crop=center&amp;height=1024&amp;v=1739200081&amp;width=832 832w, //healthyline.com/cdn/shop/files/icon_17.png?crop=center&amp;height=1024&amp;v=1739200081&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
+                      
+                    </div>
+                    <div class="cards__item__content-wrapper">
+                      <p class="cards__item__title">12 - 30Hz</p>
+                      <p class="cards__item__text">
+                        For Performance-enhancing; Heightened attention,<br>quick thinking
+                      </p>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+            
+            
+            </div>
+    </div>
+    <div>
+        <div id="shopify-section-template--17762366881844__cards_nUem3T" class="shopify-section"><link href="//healthyline.com/cdn/shop/t/2/assets/section-cards.css?v=171430722290224734931734013253" rel="stylesheet" type="text/css" media="all">
+
+            <div class="cards">
+              
+                <h2 class="cards__title">
+                  Lined with a Layer of Natural Gemstones
+                </h2>
+              
+              <div class="cards__container">
+                
+                  <div class="cards__item">
+                    <div class="cards__item__image-wrapper">
+                      
+                        <img src="//healthyline.com/cdn/shop/files/Black_tourmaline_wb.png?crop=center&amp;height=1024&amp;v=1733827708&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/Black_tourmaline_wb.png?crop=center&amp;height=1024&amp;v=1733827708&amp;width=352 352w, //healthyline.com/cdn/shop/files/Black_tourmaline_wb.png?crop=center&amp;height=1024&amp;v=1733827708&amp;width=832 832w, //healthyline.com/cdn/shop/files/Black_tourmaline_wb.png?crop=center&amp;height=1024&amp;v=1733827708&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
+                      
+                    </div>
+                    <div class="cards__item__content-wrapper">
+                      <p class="cards__item__title">Tourmaline</p>
+                      <p class="cards__item__text">
+                        Grounding stone that shields against negativity, reduces pain, aids in sleep
+                      </p>
+                    </div>
+                  </div>
+                
+                  <div class="cards__item">
+                    <div class="cards__item__image-wrapper">
+                      
+                        <img src="//healthyline.com/cdn/shop/files/amethyst.png?crop=center&amp;height=1024&amp;v=1733827950&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/amethyst.png?crop=center&amp;height=1024&amp;v=1733827950&amp;width=352 352w, //healthyline.com/cdn/shop/files/amethyst.png?crop=center&amp;height=1024&amp;v=1733827950&amp;width=832 832w, //healthyline.com/cdn/shop/files/amethyst.png?crop=center&amp;height=1024&amp;v=1733827950&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
+                      
+                    </div>
+                    <div class="cards__item__content-wrapper">
+                      <p class="cards__item__title">Amethyst</p>
+                      <p class="cards__item__text">
+                        Elevates spirituality, offers peace, known as nature’s  “stress protector”
+                      </p>
+                    </div>
+                  </div>
+                
+                  <div class="cards__item">
+                    <div class="cards__item__image-wrapper">
+                      
+                        <img src="//healthyline.com/cdn/shop/files/jade.png?crop=center&amp;height=1024&amp;v=1733936710&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/jade.png?crop=center&amp;height=1024&amp;v=1733936710&amp;width=352 352w, //healthyline.com/cdn/shop/files/jade.png?crop=center&amp;height=1024&amp;v=1733936710&amp;width=832 832w, //healthyline.com/cdn/shop/files/jade.png?crop=center&amp;height=1024&amp;v=1733936710&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
+                      
+                    </div>
+                    <div class="cards__item__content-wrapper">
+                      <p class="cards__item__title">Jade</p>
+                      <p class="cards__item__text">
+                        Brings fortune, friendship, and emotional healing
+                      </p>
+                    </div>
+                  </div>
+                
+                  <div class="cards__item">
+                    <div class="cards__item__image-wrapper">
+                      
+                        <img src="//healthyline.com/cdn/shop/files/Untitled-1.png?crop=center&amp;height=1024&amp;v=1733936710&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/Untitled-1.png?crop=center&amp;height=1024&amp;v=1733936710&amp;width=352 352w, //healthyline.com/cdn/shop/files/Untitled-1.png?crop=center&amp;height=1024&amp;v=1733936710&amp;width=832 832w, //healthyline.com/cdn/shop/files/Untitled-1.png?crop=center&amp;height=1024&amp;v=1733936710&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
+                      
+                    </div>
+                    <div class="cards__item__content-wrapper">
+                      <p class="cards__item__title">Obsidian</p>
+                      <p class="cards__item__text">
+                        Strong protection against negativity, grounding stone
+                      </p>
+                    </div>
+                  </div>
+                
+                  <div class="cards__item">
+                    <div class="cards__item__image-wrapper">
+                      
+                        <img src="//healthyline.com/cdn/shop/files/quartz.png?crop=center&amp;height=1024&amp;v=1733936711&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/quartz.png?crop=center&amp;height=1024&amp;v=1733936711&amp;width=352 352w, //healthyline.com/cdn/shop/files/quartz.png?crop=center&amp;height=1024&amp;v=1733936711&amp;width=832 832w, //healthyline.com/cdn/shop/files/quartz.png?crop=center&amp;height=1024&amp;v=1733936711&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
+                      
+                    </div>
+                    <div class="cards__item__content-wrapper">
+                      <p class="cards__item__title">Quartz</p>
+                      <p class="cards__item__text">
+                        Amplifies energy and promotes clarity and healing
+                      </p>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+            
+            
+            </div>
+    </div>
+</div>    
+</template>
+

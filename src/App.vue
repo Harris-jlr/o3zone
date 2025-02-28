@@ -1,22 +1,23 @@
-<script setup>
-import LandingPage from './components/LandingPage.vue'
-</script>
-
 <template>
-  <LandingPage />
+
+  <div class="w-full mx-px center">
+    
+     <router-view />
+     <myfooter />
+  </div>
+  
+
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<script>
+
+import myfooter from '/src/components/myfooter.vue'
+
+
+export default {
+  components: { myfooter },
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+</script>
+
+<style>
 </style>
