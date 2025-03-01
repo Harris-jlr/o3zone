@@ -1,16 +1,16 @@
 // About.vue
 <template>
-       
+        <MyHeader />
         <PemfHero />
     
 </template>
 
 
 <script>
-
-import PemfHero from '../components/PemfHero.vue';
+import MyHeader from '../components/MyHeader.vue';
+import PemfHero from '../components/PemfHero.vue'
 
 export default {
-  components: { PemfHero, },
+  components: { PemfHero, MyHeader },
 }
 </script>

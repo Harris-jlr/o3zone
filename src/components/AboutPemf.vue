@@ -1,16 +1,11 @@
 <template>
 <div>
-    <div class="flex flex-col">
-      <PemfHero />
-    </div>
-
     <div>
         <div  class="shopify-section"> 
-
-          <div class="bg-gray-200 p-12">
+          <div class="bg-gray-900 p-12">
               
-              <h2 class="text-center mb-12 text-gray-800 text-3xl leading-10 tracking-wider">
-             Knowing your brainwave frequencies
+              <h2 class="text-center mb-12 text-gray-200 text-3xl leading-10 tracking-wider">
+             Let's Start with Learning your Brainwave frequencies
               </h2>
             
             <div class="flex flex-nowrap px-5 justify-center gap-4">
@@ -109,11 +104,12 @@
     <div>
         <div >
 
-            <div class="bg-gray-200 p-12">
+            <div class="bg-gray-200 p-10">
               
-                <h2 class="text-center mb-12 text-gray-800 text-3xl leading-10 tracking-wider">
+                <h2 class="text-center mb-6 text-gray-800 text-3xl leading-10 tracking-wider">
                   The Healthy Wave Mat is Lined with a Layer of Natural Gemstones
                 </h2>
+                <p class="max-w-full px-12 mb-10">Experience deep relaxation and rejuvenation with the HealthyWave Mat, lined with natural gemstones like amethyst, jade, tourmaline, and obsidian. These stones emit far infrared heat and negative ions, promoting deep tissue relaxation, improved circulation, and reduced inflammation. The combination of heat therapy and natural minerals helps relieve muscle tension, enhance detoxification, and support better sleep. By aligning the body's energy flow and boosting cellular function, the HealthyWave Mat provides a holistic approach to pain relief, recovery, and overall well-being.</p>
               
               <div class="flex flex-nowrap px-5 justify-center gap-4">
                 

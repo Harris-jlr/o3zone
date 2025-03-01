@@ -1,17 +1,12 @@
-// About.vue
+// Schedule.vue
 <template>
-       <MyHeader />
-        <MyScheduler />
-    
+      <MyHeader />
+      <MyScheduler />
 </template>
 
-
 <script>
-
-
 import MyHeader from '../components/MyHeader.vue';
 import MyScheduler from '../components/MyScheduler.vue';
-
 
 export default {
   components: { MyScheduler, MyHeader },

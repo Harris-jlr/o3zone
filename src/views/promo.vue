@@ -1,17 +1,16 @@
 // About.vue
 <template>
-       
-        <aboutpemf />
+        <MyHeader />
+        <SpaHero />
     
 </template>
 
 
 <script>
-
-
-import aboutpemf from '/src/components/AboutPemf.vue'
+import MyHeader from '../components/MyHeader.vue';
+import SpaHero from '/src/components/SpaHero.vue'
 
 export default {
-  components: { aboutpemf, },
+  components: { SpaHero, MyHeader},
 }
 </script>

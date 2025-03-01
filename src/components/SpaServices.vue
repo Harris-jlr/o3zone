@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="bg-gray-900 p-12">
+    <div class="bg-gray-900 p-8">
       <!-- Title -->
-      <h2 class="text-center mb-4 text-gray-200 text-3xl leading-10 tracking-wider">
+      <h2 class="text-center mb-6 text-gray-200 font-bold text-5xl leading-10 tracking-wider">
         O3Zone Services
       </h2>
 
@@ -10,11 +10,11 @@
       <p class="text-center text-gray-300 max-w-3xl mx-auto mb-6">
         Discover our range of ozone therapy services designed to promote wellness, detoxification, and healing. 
         Each service is carefully curated to enhance your overall health and vitality. Explore our offerings 
-        and schedule your appointment today.
+        and schedule your appointment today. <a href="/history" class="text-sm/6 font-semibold text-white">Learn more <span aria-hidden="true">→</span></a>
       </p>
 
       <!-- Responsive Grid Layout -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-5 justify-center">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-5 m-auto max-w-7xl">
         <!-- Service Card -->
         <div class="max-w-xs bg-white rounded-lg shadow-lg p-4 flex flex-col items-center text-center">
           <img src="../assets/03.png" alt="DetoxU" class="h-40 w-full object-cover rounded-lg mb-4">
@@ -48,8 +48,8 @@
           </p>
         </div>
       </div>
-      <div class="mt-8 text-center">
-          <a href="/contact" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-lg text-lg font-semibold transition shadow-lg">
+      <div class="mt-8 text-center mb-12">
+          <a href="/contact" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-12 rounded-lg text-lg font-semibold transition shadow-lg">
             Contact Us to Schedule an Appointment
           </a>
         </div>
