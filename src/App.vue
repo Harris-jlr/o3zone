@@ -1,7 +1,6 @@
 <template>
 
   <div class="w-full mx-px center">
-    
      <router-view />
      <myfooter />
   </div>

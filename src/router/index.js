@@ -1,6 +1,6 @@
 import { createRouter , createWebHistory } from 'vue-router'
 import home from '/src/views/home.vue'
-import about from '/src/views/About.vue'
+import about from '/src/views/about.vue'
 import schedule from '/src/views/samplepage.vue'
 import promo from '/src/views/promo.vue'
 import ozone from '/src/views/spa.vue'
@@ -9,11 +9,6 @@ const routes = [
     {
         path: '/',
         name: '/',
-        component: home,
-     },
-     {
-        path: '/home',
-        name: 'home',
         component: home,
      },
      {

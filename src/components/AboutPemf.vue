@@ -1,38 +1,19 @@
 <template>
 <div>
-
-    <div class="flex flex-row place-self-center">
-      <div class="flex flex-row flex-1 my-4 ">
-        
-        <div class="flex flex-col w-42 mx-6 px-2">
-            <img src="//healthyline.com/cdn/shop/files/Ease_Muscle_Tension_Instantly.svg?v=1727200984"> 
-            <p>Ease Muscle Tension</p>
-        </div> 
-        <div class="flex flex-col w-42 mx-6 px-2">
-            <img src="//healthyline.com/cdn/shop/files/Unlock_Restful_Deep_Sleep.svg?v=1727200984"> 
-            <p>Unlock Restful, Deep Sleep</p>
-        </div> 
-        <div class="flex flex-col w-42 mx-6 px-2">
-            <img src="//healthyline.com/cdn/shop/files/Boost_Circulation_for_Total_Vitality.svg?v=1727200984"> 
-            <p>Boost Circulation Where Applied</p>
-        </div> 
-        <div class="flex flex-col w-42 mx-6 px-2">
-            <img src="//healthyline.com/cdn/shop/files/Fast-Track_Your_Recovery.svg?v=1727200984"> 
-            <p>Fast-Track Your Recovery</p>
-        </div> 
-        <div class="flex flex-col w-42 mx-6 px-2">
-            <img src="//healthyline.com/cdn/shop/files/Power_Up_Your_Energy_Levels_Naturally.svg?v=1727200984"> 
-            <p>Power Up Your Energy Levels Naturally</p>
-        </div>
-      </div>
+    <div class="flex flex-col">
+      <PemfHero />
     </div>
-    
-    <div>
-        <div id="shopify-section-template--17762366881844__cards_dfqnBp" class="shopify-section"><link href="//healthyline.com/cdn/shop/t/2/assets/section-cards.css?v=171430722290224734931734013253" rel="stylesheet" type="text/css" media="all">
 
-            <div class="cards">
+    <div>
+        <div  class="shopify-section"> 
+
+          <div class="bg-gray-200 p-12">
               
-              <div class="cards__container">
+              <h2 class="text-center mb-12 text-gray-800 text-3xl leading-10 tracking-wider">
+             Knowing your brainwave frequencies
+              </h2>
+            
+            <div class="flex flex-nowrap px-5 justify-center gap-4">
                 
                   <div class="max-w-3xs min-h-64 rounded-lg px-4 py-6 text-center place-content-center bg-white">
                     <div class="h-100% w-auto">
@@ -96,13 +77,40 @@
             
             </div>
     </div>
-    <div>
-        <div id="shopify-section-template--17762366881844__cards_nUem3T" class="shopify-section"><link href="//healthyline.com/cdn/shop/t/2/assets/section-cards.css?v=171430722290224734931734013253" rel="stylesheet" type="text/css" media="all">
 
-            <div class="bg-green-50 p-12">
+     <div class="flex flex-row place-self-center">
+      <div class="flex flex-row flex-1 my-4 ">
+        
+        <div class="flex flex-col w-42 mx-6 px-2">
+            <img src="//healthyline.com/cdn/shop/files/Ease_Muscle_Tension_Instantly.svg?v=1727200984"> 
+            <p>Ease Muscle Tension</p>
+        </div> 
+        <div class="flex flex-col w-42 mx-6 px-2">
+            <img src="//healthyline.com/cdn/shop/files/Unlock_Restful_Deep_Sleep.svg?v=1727200984"> 
+            <p>Unlock Restful, Deep Sleep</p>
+        </div> 
+        <div class="flex flex-col w-42 mx-6 px-2">
+            <img src="//healthyline.com/cdn/shop/files/Boost_Circulation_for_Total_Vitality.svg?v=1727200984"> 
+            <p>Boost Circulation Where Applied</p>
+        </div> 
+        <div class="flex flex-col w-42 mx-6 px-2">
+            <img src="//healthyline.com/cdn/shop/files/Fast-Track_Your_Recovery.svg?v=1727200984"> 
+            <p>Fast-Track Your Recovery</p>
+        </div> 
+        <div class="flex flex-col w-42 mx-6 px-2">
+            <img src="//healthyline.com/cdn/shop/files/Power_Up_Your_Energy_Levels_Naturally.svg?v=1727200984"> 
+            <p>Power Up Your Energy Levels Naturally</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+        <div >
+
+            <div class="bg-gray-200 p-12">
               
                 <h2 class="text-center mb-12 text-gray-800 text-3xl leading-10 tracking-wider">
-                  Lined with a Layer of Natural Gemstones
+                  The Healthy Wave Mat is Lined with a Layer of Natural Gemstones
                 </h2>
               
               <div class="flex flex-nowrap px-5 justify-center gap-4">
@@ -184,3 +192,13 @@
 </div>    
 </template>
 
+<script>
+import PemfHero from '../components/PemfHero.vue'
+
+export default {
+  components: { PemfHero },
+}
+</script>
+
+<style>
+</style>
