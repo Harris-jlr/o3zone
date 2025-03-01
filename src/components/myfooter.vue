@@ -69,6 +69,7 @@
       { name: 'Claim', href: '#' },
       { name: 'Privacy', href: '#' },
       { name: 'Terms', href: '#' },
+      { name: 'Contact Us', href: '/contact' },
     ],
     social: [
       {

@@ -3,9 +3,9 @@
     <header class="absolute inset-x-0 top-0 z-50">
       <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
+          <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">03Zone</span>
-            <img class="h-16 w-auto" src="../assets/O3zone.png" alt="" />
+            <img class="h-22 w-auto" src="../assets/O3zone.png" alt="" />
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -56,14 +56,14 @@
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-4xl text-center">
             <img >
-            <h1 class="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">PEMF Mat Therapy</h1>
-            <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Enjoy the most advanced Pulsed Electromagnetic Field therapy on our Healthy Wave PEMF mat. This mat delivers the optimum PEMF therapy experience and it operates in the same frequency range as the earth's magnetic field to help bring our own magnetic field back to its natural state.</p>
+            <h1 class="text-balance text-5xl font-semibold tracking-tight pt-10 text-white sm:text-6xl">Ozone Steam Sauna Therapy</h1>
+            <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Few wellness practices are as timeless as the sauna. They are well-loved for their calming, restorative effects. When combined with O3 they go way beyond just relaxation, the health benefits of this type of sauna can be significant.</p>
             <div class="mt-4 flex items-center justify-center gap-x-6">
-              <a href="#" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get started</a>
-              <a href="#" class="text-sm/6 font-semibold text-white">Learn more <span aria-hidden="true">→</span></a>
+              <a href="/services" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get started</a>
+              <a href="/history" class="text-sm/6 font-semibold text-white">Learn more <span aria-hidden="true">→</span></a>
             </div>
           </div>
-          <img src="../assets/Picture7.png" alt="App screenshot" width="2432" height="1442" class="mt-4 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24 lg:mt-4" />
+          <img src="../assets/ozone_spa.png" alt="App screenshot" width="2432" height="1442" class="mt-4 rounded-md pt-10 sm:mt-24 lg:mt-4" />
         </div>
       </div>
       <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
@@ -81,9 +81,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 const navigation = [
   { name: 'Ozone Services', href: '/ozone' },
   { name: 'The PEMF Mat', href: '/pemf' },
-  { name: 'Share your Journey', href: '#' },
-  { name: 'Our History', href: '#' },
-  { name: 'Contact Us', href: '#' },
+  { name: 'Share your Journey', href: '/journey' },
+  { name: 'Schedule Now', href: '/schedule' },
+  { name: 'Company', href: '/about' },
 ]
 
 const mobileMenuOpen = ref(false)

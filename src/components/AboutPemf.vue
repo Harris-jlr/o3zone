@@ -77,6 +77,7 @@
             
             </div>
     </div>
+    <img src="../assets/Picture7.png" alt="App screenshot" class="mt-4 place-self-center rounded-md bg-white/5 ring-1 ring-white/10 sm:mt-24 lg:mt-4" />
 
      <div class="flex flex-row place-self-center">
       <div class="flex flex-row flex-1 my-4 ">
@@ -102,8 +103,9 @@
             <p>Power Up Your Energy Levels Naturally</p>
         </div>
       </div>
+      
     </div>
-
+    
     <div>
         <div >
 
