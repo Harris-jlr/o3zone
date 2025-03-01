@@ -11,6 +11,6 @@ import MyHeader from '../components/MyHeader.vue';
 import AboutAllen from '/src/components/AboutAllen.vue';
 
 export default {
-  components: { AboutAllen, Myheader},
+  components: { AboutAllen, MyHeader},
 }
 </script>

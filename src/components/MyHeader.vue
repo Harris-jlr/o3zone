@@ -60,7 +60,7 @@ const navigation = [
   { name: 'The PEMF Mat', href: '/pemf' },
   { name: 'Share your Journey', href: '/journey' },
   { name: 'Schedule Now', href: '/schedule' },
-  { name: 'Company', href: '/about' },
+  { name: 'Company', href: '/company' },
 ]
 
 const mobileMenuOpen = ref(false)
