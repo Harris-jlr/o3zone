@@ -1,17 +1,15 @@
 // About.vue
 <template>
-       
-        <aboutpemf />
-    
+        <MyHeader />
+        <AboutPemf />
 </template>
 
 
 <script>
-
-
-import aboutpemf from '/src/components/AboutPemf.vue'
+import MyHeader from '../components/MyHeader.vue';
+import AboutPemf from '/src/components/AboutPemf.vue'
 
 export default {
-  components: { aboutpemf, },
+  components: { MyHeader, AboutPemf },
 }
 </script>
