@@ -1,16 +1,16 @@
 // About.vue
 <template>
        
-        <AboutPemf />
+        <PemfHero />
     
 </template>
 
 
 <script>
 
-import AboutPemf from '../components/AboutPemf.vue';
+import PemfHero from '../components/PemfHero.vue';
 
 export default {
-  components: { AboutPemf, },
+  components: { PemfHero, },
 }
 </script>

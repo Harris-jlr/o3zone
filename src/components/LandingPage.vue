@@ -5,7 +5,7 @@
         <div class="flex lg:flex-1">
           <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">03Zone</span>
-            <img class="h-16 w-auto" src="../assets/O3zone.png" alt="" />
+            <img class="h-22 w-auto" src="../assets/O3zone.png" alt="" />
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -56,11 +56,11 @@
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl text-center">
             <img >
-            <h1 class="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">Welcome to Wellness</h1>
-            <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Our Ozone Steam Sauna should be an integral part of your detoxification program. Detoxify and Oxygenate your body at the cellular level for healthy skin and increased blood circulation.</p>
+            <h1 class="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">Journey to Wellness</h1>
+            <p class="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">Our Ozone Steam Sauna and Healthy Wave PEMF Mat should be integral parts of your detoxification program. Detoxify and Oxygenate your body at the cellular level for healthy skin and increased blood circulation.</p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
-              <a href="#" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get started</a>
-              <a href="#" class="text-sm/6 font-semibold text-white">Learn more <span aria-hidden="true">→</span></a>
+              <a href="/schedule" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">Get started</a>
+              <a href="/company" class="text-sm/6 font-semibold text-white">Learn more <span aria-hidden="true">→</span></a>
             </div>
           </div>
           <img src="../assets/Picture13.png" alt="App screenshot" width="2432" height="1442" class="mt-16 rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10 sm:mt-24" />
@@ -81,9 +81,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 const navigation = [
   { name: 'Ozone Services', href: '/ozone' },
   { name: 'The PEMF Mat', href: '/pemf' },
-  { name: 'Share your Journey', href: '#' },
-  { name: 'Our History', href: '#' },
-  { name: 'Contact Us', href: '#' },
+  { name: 'Share your Journey', href: '/journey' },
+  { name: 'Schedule Now', href: '/schedule' },
+  { name: 'Company', href: '/about' },
 ]
 
 const mobileMenuOpen = ref(false)
