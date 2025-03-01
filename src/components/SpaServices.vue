@@ -14,7 +14,7 @@
       </p>
 
       <!-- Responsive Grid Layout -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-5 justify-center">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-5 m-auto max-w-7xl">
         <!-- Service Card -->
         <div class="max-w-xs bg-white rounded-lg shadow-lg p-4 flex flex-col items-center text-center">
           <img src="../assets/03.png" alt="DetoxU" class="h-40 w-full object-cover rounded-lg mb-4">

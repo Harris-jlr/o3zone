@@ -1,8 +1,6 @@
 <template>
 <div>
-    <div class="flex flex-col">
       <SpaHero />
-    </div>
 </div>    
 </template>
 
