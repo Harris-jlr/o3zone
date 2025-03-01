@@ -2,7 +2,6 @@
 <template>
         <MyHeader />
         <SpaServices />
-    
 </template>
 
 

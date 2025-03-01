@@ -1,17 +1,14 @@
 // About.vue
 <template>
-       
-        <OzoneSpa />
-    
+  <MyHeader />
+  <SpaServices />
 </template>
 
-
 <script>
-
-
-import OzoneSpa from '../components/OzoneSpa.vue';
+import MyHeader from '../components/MyHeader.vue';
+import SpaServices from '../components/SpaServices.vue';
 
 export default {
-  components: { OzoneSpa, },
+components: { SpaServices, MyHeader },
 }
 </script>

@@ -7,8 +7,6 @@
 
 
 <script>
-
-
 import aboutpemf from '/src/components/AboutPemf.vue'
 
 export default {

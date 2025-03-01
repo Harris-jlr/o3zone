@@ -1,19 +1,14 @@
+// Schedule.vue
 <template>
-    <div class="flex flex-col">
-        <div class="flex flex-col">
-            <LandingPage />
-        </div>
-      
-    </div>
+      <MyHeader />
+      <LandingPage />
 </template>
-    
-    <script>
-    import LandingPage from '../components/LandingPage.vue'
 
-    export default {
-      components: { LandingPage },
-    }
-    </script>
-    
-    <style>
-    </style>
+<script>
+import MyHeader from '../components/MyHeader.vue';
+import LandingPage from '../components/LandingPage.vue';
+
+export default {
+  components: { LandingPage, MyHeader },
+}
+</script>
