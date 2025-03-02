@@ -1,5 +1,8 @@
 <template>
   <div class="bg-gray-900 pb-20">
+    <div class="flex">
+     
+    
     <div class="max-w-2xl mx-auto p-6 bg-white shadow-lg rounded-lg">
     <h2 class="text-2xl font-bold text-center mb-2">Contact Us</h2>
     <p class="text-gray-600 text-center mb-6">
@@ -46,7 +49,12 @@
         Submit your Request
       </button>
     </form>
+    <div class="flex-row max-w-60 m-auto">
+        <img src="../assets/Scan2book.png" alt="">
+      </div>
     </div> 
+    
+  </div>
   </div>
 </template>
 
