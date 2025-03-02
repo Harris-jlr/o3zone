@@ -50,7 +50,7 @@
       </button>
     </form>
     <div class="flex-row max-w-60 m-auto">
-        <img src="../assets/Scan2book.png" alt="">
+        <img src="../assets/scan2book.png" alt="qr code for groupon">
       </div>
     </div> 
     
