@@ -1,5 +1,6 @@
 <template>
   <div class="w-full mx-px center">
+    <p class="text-white">App.vue is Mounted</p> <!-- Debugging Text -->
     <router-view />
     <myfooter />
   </div>
@@ -12,22 +13,24 @@ import myfooter from '/src/components/myfooter.vue';
 export default {
   components: { myfooter },
   setup() {
-    onMounted(() => {
-      // Inject Google Analytics Script
-      const scriptTag = document.createElement('script');
-      scriptTag.src = 'https://www.googletagmanager.com/gtag/js?id=G-D3QR9ZCELH';
-      scriptTag.async = true;
-      document.head.appendChild(scriptTag);
+  onMounted(() => {
 
-      // Google Analytics Initialization
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        window.dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-D3QR9ZCELH');
-    });
-  }
+    // Inject Google Analytics Script
+    const scriptTag = document.createElement('script');
+    scriptTag.src = 'https://www.googletagmanager.com/gtag/js?id=G-D3QR9ZCELH';
+    scriptTag.async = true;
+    document.head.appendChild(scriptTag);
+
+    // Google Analytics Initialization
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-D3QR9ZCELH');
+  });
+}
+
 };
 </script>
 

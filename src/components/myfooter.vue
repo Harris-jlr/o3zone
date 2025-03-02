@@ -51,17 +51,20 @@
 
       <!-- Column 7-8: Newsletter Subscription -->
       <div class="col-span-2 flex flex-col max-w-[220px]">
-        <h3 class="text-sm font-semibold text-gray-300 uppercase">Subscribe to our Newsletter</h3>
-        <form class="flex flex-col ">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            class="w-full text-gray-900 rounded-md"
-          />
-          <button class="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-md">
-            Subscribe
-          </button>
-        </form>
+  <h3 class="text-sm font-semibold text-gray-300 uppercase">Subscribe to our Newsletter</h3>
+  <form class="flex flex-col " @submit.prevent="subscribe">
+    <input
+      v-model="email" 
+      type="email"
+      placeholder="Enter your email"
+      class="w-full text-gray-900 rounded-md bg-white p-2"
+      required
+    />
+    <button type="submit" class="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 mt-2 rounded-md">
+      Subscribe
+    </button>
+  </form>
+  <p v-if="message" class="mt-2 text-green-400 text-sm">{{ message }}</p>
       </div>
 
     </div>
@@ -72,21 +75,41 @@
 export default {
   data() {
     return {
+      email: '', 
+      message: '', 
       navigation: {
         solutions: [
-          { name: "Analytics", href: "#" },
+          { name: "Analytics", href: "https://analytics.google.com/" },
           { name: "Insights", href: "#" },
         ],
         legal: [
-          { name: "Privacy", href: "#" },
-          { name: "Terms", href: "#" },
+          { name: "Privacy", href: "/company" },
+          { name: "Terms", href: "/services" },
           { name: "Contact Us", href: "/contact" },
         ],
       },
     };
   },
+  methods: {
+    subscribe() {
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      if (!emailPattern.test(this.email)) {
+        this.message = "Please enter a valid email address.";
+        return;
+      }
+
+      let subscribers = JSON.parse(localStorage.getItem('subscribers')) || [];
+      subscribers.push(this.email);
+      localStorage.setItem('subscribers', JSON.stringify(subscribers));
+
+      this.message = "You've successfully subscribed!";
+      this.email = ''; 
+    }
+  }
 };
 </script>
+
 
 <style>
 /* FontAwesome for social icons */
