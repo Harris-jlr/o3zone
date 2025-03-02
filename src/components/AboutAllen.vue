@@ -24,7 +24,7 @@
           </p>
         </div>
         <div class="flex justify-center">
-          <img src="/src/assets/allen.jpg" alt="O3ZONE Logo" class="w-60 h-auto rounded-lg shadow-lg">
+          <img src="../assets/allen.png" alt="O3ZONE Logo" class="w-60 h-auto rounded-lg shadow-lg">
         </div>
       </section>
   
