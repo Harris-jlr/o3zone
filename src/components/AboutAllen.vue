@@ -4,7 +4,7 @@
       <section class="text-center py-16 px-6">
         <h1 class="text-4xl font-bold text-white">About O3ZONE</h1>
         <p class="mt-4 text-lg max-w-3xl mx-auto">
-          Learn about the journey of O3ZONE, the vision behind our company and it's founder.
+          Learn about the journey of the O<sub>3</sub>Zone, the vision behind the company and it's founder.
         </p>
       </section>
   
@@ -24,7 +24,7 @@
           </p>
         </div>
         <div class="flex justify-center">
-          <img src="../assets/o3zone_logo200x200.png" alt="O3ZONE Logo" class="w-80 h-auto rounded-lg shadow-lg">
+          <img src="../assets/allen.png" alt="O3ZONE Logo" class="w-40 h-auto rounded-lg shadow-lg">
         </div>
       </section>
   
