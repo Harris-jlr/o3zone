@@ -18,7 +18,7 @@
         <!-- Service Card -->
         <div class="max-w-xs bg-white rounded-lg shadow-lg p-4 flex flex-col items-center text-center">
           <img src="../assets/03.png" alt="DetoxU" class="h-40 w-full object-cover rounded-lg mb-4">
-          <p class="font-bold text-2xl">DetoxU</p>
+          <p class="font-bold text-2xl">DetoxU<sup>™</sup></p>
           <p class="text-gray-700">
             The "DetoxU" Ozone Steam Sauna increases the eliminative, detoxifying, and cleansing capacity of the skin promoting healthy tone and texture.
           </p>
@@ -26,7 +26,7 @@
 
         <div class="max-w-xs bg-white rounded-lg shadow-lg p-4 flex flex-col items-center text-center">
           <img src="../assets/ozone_spa.png" alt="PEMF" class="h-40 w-full object-cover rounded-lg mb-4">
-          <p class="font-bold text-2xl">MaintainU</p>
+          <p class="font-bold text-2xl">MaintainU<sup>™</sup></p>
           <p class="text-gray-700">
             The "MaintainU" Ozone Steam Sauna maintenance program geared towards healthy skin, stimulate the body's immune system, and maintain higher levels of fixed oxygen.
           </p>

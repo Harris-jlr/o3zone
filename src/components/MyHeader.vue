@@ -4,8 +4,8 @@
       <nav class="flex items-center justify-between p-4 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
           <a href="/" class="-m-1.5 p-1.5">
-            <span class="sr-only">03Zone</span>
-            <img class="h-28 w-auto" src="../assets/O3zone.png" alt="" />
+            <span class="sr-only">03Zone<sup>™</sup></span>
+            <img class="h-28 w-auto" src="../assets/O3zone.png" alt="" /><sup class="text-white text-sm">™</sup>
           </a>
         </div>
         <div class="flex lg:hidden">
