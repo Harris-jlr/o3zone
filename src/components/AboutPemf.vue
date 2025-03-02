@@ -1,202 +1,108 @@
 <template>
-<div>
-    <div>
-        <div  class="shopify-section"> 
-          <div class="bg-gray-900 p-12">
-              
-              <h2 class="text-center mb-12 text-gray-200 text-3xl leading-10 tracking-wider">
-             Let's Start with Learning your Brainwave frequencies
-              </h2>
-            
-            <div class="flex flex-nowrap px-5 justify-center gap-4">
-                
-                  <div class="max-w-3xs min-h-64 rounded-lg px-4 py-6 text-center place-content-center bg-white">
-                    <div class="h-100% w-auto">
-                      
-                        <img src="//healthyline.com/cdn/shop/files/icon_14.png?crop=center&amp;height=1024&amp;v=1739199300&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/icon_14.png?crop=center&amp;height=1024&amp;v=1739199300&amp;width=352 352w, //healthyline.com/cdn/shop/files/icon_14.png?crop=center&amp;height=1024&amp;v=1739199300&amp;width=832 832w, //healthyline.com/cdn/shop/files/icon_14.png?crop=center&amp;height=1024&amp;v=1739199300&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
-                      
-                    </div>
-                    <div class="m-0 p-0 border-0">
-                      <p class="font-bold text-2xl">0.5-4Hz</p>
-                      <p class="flex-1 leading-6">
-                        For deep sleep enhancement, and recovery from physical exhaustion
-                      </p>
-                    </div>
-                  </div>
-                
-                  <div class="max-w-3xs min-h-64 rounded-lg px-4 py-6 text-center place-content-center bg-white">
-                    <div class="h-100% w-auto">
-                      
-                        <img src="//healthyline.com/cdn/shop/files/icon_15.png?crop=center&amp;height=1024&amp;v=1739199754&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/icon_15.png?crop=center&amp;height=1024&amp;v=1739199754&amp;width=352 352w, //healthyline.com/cdn/shop/files/icon_15.png?crop=center&amp;height=1024&amp;v=1739199754&amp;width=832 832w, //healthyline.com/cdn/shop/files/icon_15.png?crop=center&amp;height=1024&amp;v=1739199754&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
-                      
-                    </div>
-                    <div class="m-0 p-0 border-0">
-                      <p class="font-bold text-2xl">4 - 7Hz</p>
-                      <p class="flex-1 leading-6">
-                        To assist creativity, memory, emotional balance; meditation aids
-                      </p>
-                    </div>
-                  </div>
-                
-                  <div class="max-w-3xs min-h-64 rounded-lg px-4 py-6 text-center place-content-center bg-white">
-                    <div class="h-100% w-auto">
-                      
-                        <img src="//healthyline.com/cdn/shop/files/icon_16.png?crop=center&amp;height=1024&amp;v=1739199900&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/icon_16.png?crop=center&amp;height=1024&amp;v=1739199900&amp;width=352 352w, //healthyline.com/cdn/shop/files/icon_16.png?crop=center&amp;height=1024&amp;v=1739199900&amp;width=832 832w, //healthyline.com/cdn/shop/files/icon_16.png?crop=center&amp;height=1024&amp;v=1739199900&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
-                      
-                    </div>
-                    <div class="m-0 p-0 border-0">
-                      <p class="font-bold text-2xl">7 - 12Hz</p>
-                      <p class="flex-1 leading-6">
-                        For improving learning and calm focus; for overall mental clarity. Great for maintaining a relaxed alertness
-                      </p>
-                    </div>
-                  </div>
-                
-                  <div class="max-w-3xs min-h-64 rounded-lg px-4 py-6 text-center place-content-center bg-white">
-                    <div class="h-100% w-auto">
-                      
-                        <img src="//healthyline.com/cdn/shop/files/icon_17.png?crop=center&amp;height=1024&amp;v=1739200081&amp;width=1024" alt="" srcset="//healthyline.com/cdn/shop/files/icon_17.png?crop=center&amp;height=1024&amp;v=1739200081&amp;width=352 352w, //healthyline.com/cdn/shop/files/icon_17.png?crop=center&amp;height=1024&amp;v=1739200081&amp;width=832 832w, //healthyline.com/cdn/shop/files/icon_17.png?crop=center&amp;height=1024&amp;v=1739200081&amp;width=1024 1024w" width="1024" height="1024" loading="lazy" class="cards__item__image">
-                      
-                    </div>
-                    <div class="m-0 p-0 border-0">
-                      <p class="font-bold text-2xl">12 - 30Hz</p>
-                      <p class="flex-1 leading-6">
-                        For Performance-enhancing; Heightened attention,<br>quick thinking
-                      </p>
-                    </div>
-                  </div>
-                
-              </div>
-            </div>
-            
-            
-            </div>
-    </div>
-    <img src="../assets/Picture7.png" alt="App screenshot" class="mt-4 place-self-center rounded-md bg-white/5 ring-1 ring-white/10 sm:mt-24 lg:mt-4" />
+  <div>
+    <!-- Section 1: Brainwave Frequencies -->
+    <div class="bg-gray-200 p-6 sm:p-10 ">
+      <h2 class="text-center mb-6 text-gray-800 text-xl sm:text-2xl md:text-3xl leading-10 tracking-wider">
+        Let's Start with Learning your Brainwave Frequencies
+      </h2>
+      <p class="max-w-3xl mx-auto px-4 sm:px-12 text-sm sm:text-base leading-6 text-center">
+        Experience deep relaxation and rejuvenation with the HealthyWave Mat, lined with natural gemstones like amethyst, jade, tourmaline, and obsidian...
+      </p>
 
-     <div class="flex flex-row place-self-center">
-      <div class="flex flex-row flex-1 my-4 ">
-        
-        <div class="flex flex-col w-42 mx-6 px-2">
-            <img src="//healthyline.com/cdn/shop/files/Ease_Muscle_Tension_Instantly.svg?v=1727200984"> 
-            <p>Ease Muscle Tension</p>
-        </div> 
-        <div class="flex flex-col w-42 mx-6 px-2">
-            <img src="//healthyline.com/cdn/shop/files/Unlock_Restful_Deep_Sleep.svg?v=1727200984"> 
-            <p>Unlock Restful, Deep Sleep</p>
-        </div> 
-        <div class="flex flex-col w-42 mx-6 px-2">
-            <img src="//healthyline.com/cdn/shop/files/Boost_Circulation_for_Total_Vitality.svg?v=1727200984"> 
-            <p>Boost Circulation Where Applied</p>
-        </div> 
-        <div class="flex flex-col w-42 mx-6 px-2">
-            <img src="//healthyline.com/cdn/shop/files/Fast-Track_Your_Recovery.svg?v=1727200984"> 
-            <p>Fast-Track Your Recovery</p>
-        </div> 
-        <div class="flex flex-col w-42 mx-6 px-2">
-            <img src="//healthyline.com/cdn/shop/files/Power_Up_Your_Energy_Levels_Naturally.svg?v=1727200984"> 
-            <p>Power Up Your Energy Levels Naturally</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 md:px-12 lg:px-22 gap-6 mt-4 sm:mt-10 justify-items-center min-w-[220px]">
+        <div
+          v-for="(frequency, index) in frequencies"
+          :key="index"
+          class="max-w-xs w-full rounded-lg p-6 text-center bg-white shadow-lg flex flex-col items-center"
+        >
+          <p class="mt-3 font-bold text-lg sm:text-xl">{{ frequency.Name }}</p>
+          <img
+            :src="frequency.image"
+            :alt="frequency.title"
+            class="w-full max-w-[200px] h-auto mx-auto object-contain"
+            loading="lazy"
+          />
+          
+          <p class="font-bold text-md sm:text-lg text-gray-700">{{ frequency.title }}</p>
+          <p class="text-sm sm:text-base leading-6 text-gray-600">{{ frequency.description }}</p>
         </div>
       </div>
-      
     </div>
-    
-    <div>
-        <div >
 
-            <div class="bg-gray-200 p-10">
-              
-                <h2 class="text-center mb-6 text-gray-800 text-3xl leading-10 tracking-wider">
-                  The Healthy Wave Mat is Lined with a Layer of Natural Gemstones
-                </h2>
-                <p class="max-w-full px-12 mb-10">Experience deep relaxation and rejuvenation with the HealthyWave Mat, lined with natural gemstones like amethyst, jade, tourmaline, and obsidian. These stones emit far infrared heat and negative ions, promoting deep tissue relaxation, improved circulation, and reduced inflammation. The combination of heat therapy and natural minerals helps relieve muscle tension, enhance detoxification, and support better sleep. By aligning the body's energy flow and boosting cellular function, the HealthyWave Mat provides a holistic approach to pain relief, recovery, and overall well-being.</p>
-              
-              <div class="flex flex-nowrap px-5 justify-center gap-4">
-                
-                  <div class="max-w-3xs min-h-64 rounded-lg px-4 py-6 text-center place-content-center bg-white">
-                    <div class="h-100% w-auto">
-                      
-                        <img src="../assets/Tourmaline.png" alt="Tourmaline" loading="lazy" class="cards__item__image">
-                      
-                    </div>
-                    <div class="m-0 p-0 border-0">
-                      <p class="font-bold text-2xl">Tourmaline</p>
-                      <p class="flex-1 leading-6">
-                        Grounding stone that shields against negativity, reduces pain, aids in sleep
-                      </p>
-                    </div>
-                  </div>
-                
-                  <div class="max-w-3xs min-h-64 rounded-lg px-4 py-6 text-center place-content-center bg-white">
-                    <div class="h-100% w-auto">
-                      
-                        <img src="../assets/Amethyst.png" alt="Amethyst" loading="lazy" class="cards__item__image">
-                      
-                    </div>
-                    <div class="m-0 p-0 border-0">
-                      <p class="font-bold text-2xl">Amethyst</p>
-                      <p class="flex-1 leading-6">
-                        Elevates spirituality, offers peace, known as nature’s  “stress protector”
-                      </p>
-                    </div>
-                  </div>
-                
-                  <div class="max-w-3xs min-h-64 rounded-lg px-4 py-6 text-center place-content-center bg-white">
-                    <div class="h-100% w-auto">
-                      
-                        <img src="../assets/Jade.png" alt="Jade" loading="lazy" class="cards__item__image">
-                      
-                    </div>
-                    <div class="m-0 p-0 border-0">
-                      <p class="font-bold text-2xl">Jade</p>
-                      <p class="flex-1 leading-6">
-                        Brings fortune, friendship, and emotional healing
-                      </p>
-                    </div>
-                  </div>
-                
-                  <div class="max-w-3xs min-h-64 rounded-lg px-4 py-6 text-center place-content-center bg-white">
-                    <div class="h-100% w-auto">
-                      
-                        <img src="../assets/obsidian.png" alt="obsidian" loading="lazy" class="cards__item__image">
-                      
-                    </div>
-                    <div class="m-0 p-0 border-0">
-                      <p class="font-bold text-2xl">Obsidian</p>
-                      <p class="flex-1 leading-6">
-                        Strong protection against negativity, grounding stone
-                      </p>
-                    </div>
-                  </div>
-                
-                  <div class="max-w-3xs min-h-64 rounded-lg px-4 py-6 text-center place-content-center bg-white">
-                    <div class="h-100% w-auto">
-                        <img src="../assets/quartz.png" alt="quartz" loading="lazy" class="cards__item__image">
-                    </div>
-                    <div class="m-0 p-0 border-0">
-                      <p class="font-bold text-2xl">Quartz</p>
-                      <p class="flex-1 leading-6">
-                        Amplifies energy and promotes clarity and healing
-                      </p>
-                    </div>
-                  </div>
-                
-              </div>
-            </div>
-            
-            
-            </div>
+    <!-- Section 2: Main Image -->
+    <img
+      src="/src/assets/Picture7.png"
+      alt="App screenshot"
+      class="mt-4 sm:mt-12 mx-auto rounded-md bg-white/5 ring-1 ring-white/10 w-full max-w-3xl"
+    />
+
+    <!-- Section 3: Benefits -->
+    <div class="flex flex-wrap justify-center gap-4 mt-6 sm:mt-12">
+      <div v-for="(benefit, index) in benefits" :key="index" class="flex flex-col items-center w-36 sm:w-42">
+        <img
+          :src="benefit.image"
+          class="w-16 h-16 object-contain"
+          loading="lazy"
+        />
+        <p class="text-center text-sm sm:text-base mt-2">{{ benefit.text }}</p>
+      </div>
     </div>
-</div>    
+
+    <!-- Section 4: Gemstones -->
+    <div class="bg-gray-200 p-6 sm:p-10 mt-8">
+      <h2 class="text-center mb-6 text-gray-800 text-xl sm:text-2xl md:text-3xl leading-10 tracking-wider">
+        The Healthy Wave Mat is Lined with a Layer of Natural Gemstones
+      </h2>
+      <p class="max-w-3xl mx-auto px-4 sm:px-12 text-sm sm:text-base leading-6 text-center">
+        Experience deep relaxation and rejuvenation with the HealthyWave Mat, lined with natural gemstones like amethyst, jade, tourmaline, and obsidian...
+      </p>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-4 sm:mt-10 justify-items-center">
+        <div
+          v-for="(gemstone, index) in gemstones"
+          :key="index"
+          class="max-w-xs w-full rounded-lg p-6 text-center bg-white shadow-lg"
+        >
+          <img
+            :src="gemstone.image"
+            :alt="gemstone.title"
+            class="w-full max-w-[150px] h-auto mx-auto object-contain"
+            loading="lazy"
+          />
+          <p class="mt-3 font-bold text-lg sm:text-xl">{{ gemstone.title }}</p>
+          <p class="text-sm sm:text-base leading-6 text-gray-600">{{ gemstone.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-import PemfHero from '../components/PemfHero.vue'
-
 export default {
-  components: { PemfHero },
-}
+  data() {
+    return {
+      frequencies: [
+        { Name: "Delta", title: "0.5-4Hz", description: "For deep sleep enhancement and recovery", image: "/src/assets/waves/delta.png" },
+        { Name: "Theta", title: "4-7Hz", description: "Assists creativity, memory, and meditation", image: "/src/assets/waves/theta.png" },
+        { Name: "Alpha", title: "7-12Hz", description: "Improves learning and calm focus", image: "/src/assets/waves/alpha.png" },
+        { Name: "Beta", title: "12-30Hz", description: "Enhances performance and quick thinking", image: "/src/assets/waves/beta.png" },
+      ],
+      benefits: [
+        { text: "Ease Muscle Tension", image: "/src/assets/svg/Ease_Muscle_Tension_Instantly.svg" },
+        { text: "Unlock Restful, Deep Sleep", image: "/src/assets/svg/Unlock_Restful_Deep_Sleep.svg" },
+        { text: "Boost Circulation", image: "/src/assets/svg/Boost_Circulation_for_Total_Vitality.svg" },
+        { text: "Fast-Track Recovery", image: "/src/assets/svg/Fast-Track_Your_Recovery.svg" },
+        { text: "Power Up Energy Naturally", image: "/src/assets/svg/files/Power_Up_Your_Energy_Levels_Naturally.svg" },
+      ],
+      gemstones: [
+        { title: "Tourmaline", description: "Shields against negativity, reduces pain, aids sleep", image: "/src/assets/Tourmaline.png" },
+        { title: "Amethyst", description: "Spiritual elevation, peace, stress protection", image: "/src/assets/Amethyst.png" },
+        { title: "Jade", description: "Brings fortune, friendship, emotional healing", image: "/src/assets/Jade.png" },
+        { title: "Obsidian", description: "Strong protection against negativity", image: "/src/assets/obsidian.png" },
+        { title: "Quartz", description: "Amplifies energy, promotes clarity", image: "/src/assets/quartz.png" },
+      ],
+    };
+  },
+};
 </script>
 
-<style>
-</style>

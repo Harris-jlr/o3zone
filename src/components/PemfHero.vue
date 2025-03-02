@@ -40,7 +40,7 @@
     <div class="mt-6 md:mt-0 md:w-auto">
       <a href="https://www.groupon.com/deals/o3zone-2" 
          target="_blank"
-         class="bg-green-500 hover:bg-green-600 text-white text-lg font-semibold py-3 px-6 rounded-lg shadow-md transition">
+         class="bg-green-500 hover:bg-green-600 text-white text-lg font-semibold py-3 px-6 rounded-lg shadow-md transition whitespace-nowrap">
         Claim Your Deal Now →
       </a>
     </div>

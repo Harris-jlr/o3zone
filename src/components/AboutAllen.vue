@@ -2,7 +2,7 @@
     <div class="bg-gray-900 text-gray-200 min-h-screen">
       <!-- Hero Section -->
       <section class="text-center py-16 px-6">
-        <h1 class="text-4xl font-bold text-white">About O3ZONE</h1>
+        <h1 class="text-4xl font-bold text-white">The O<sub>3</sub>Zone</h1>
         <p class="mt-4 text-lg max-w-3xl mx-auto">
           Learn about the journey of the O<sub>3</sub>Zone, the vision behind the company and it's founder.
         </p>
@@ -11,7 +11,7 @@
       <!-- Founding Story -->
       <section class="px-6 py-12 max-w-5xl mx-auto grid md:grid-cols-2 gap-8 items-center">
         <div>
-          <h2 class="text-3xl font-semibold mb-4">The Story Behind O3ZONE</h2>
+          <h2 class="text-3xl font-semibold mb-4">The Story Behind the O<sub>3</sub>Zone</h2>
           <p class="text-gray-300">
             Allen founded O3ZONE on October 17, 2013. After the passing of his father, Allen Sr.,
             he decided to take action and do something that aligned with his passion. He created O3ZONE
@@ -24,7 +24,7 @@
           </p>
         </div>
         <div class="flex justify-center">
-          <img src="../assets/allen.png" alt="O3ZONE Logo" class="w-40 h-auto rounded-lg shadow-lg">
+          <img src="../assets/allen.jpg" alt="O3ZONE Logo" class="w-60 h-auto rounded-lg shadow-lg">
         </div>
       </section>
   
@@ -51,7 +51,7 @@
   
       <!-- Mission Statement -->
       <section class="text-center py-16 px-6">
-        <h2 class="text-3xl font-semibold text-white mb-4">Our Mission</h2>
+        <h2 class="text-3xl font-semibold text-white mb-4">The Mission</h2>
         <p class="max-w-3xl mx-auto text-gray-300">
           At O3ZONE, our mission is to provide cutting-edge ozone therapy solutions, empowering individuals to take control
           of their health through education, personalized wellness plans, and high-quality treatment options.
