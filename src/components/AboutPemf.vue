@@ -92,7 +92,7 @@ export default {
         { text: "Unlock Restful, Deep Sleep", image: "/assets/svg/Unlock_Restful_Deep_Sleep.svg" },
         { text: "Boost Circulation", image: "/assets/svg/Boost_Circulation_for_Total_Vitality.svg" },
         { text: "Fast-Track Recovery", image: "/assets/svg/Fast-Track_Your_Recovery.svg" },
-        { text: "Power Up Energy Naturally", image: "/assets/svg/files/Power_Up_Your_Energy_Levels_Naturally.svg" },
+        { text: "Power Up Energy Naturally", image: "/assets/svg/Power_Up_Your_Energy_Levels_Naturally.svg" },
       ],
       gemstones: [
         { title: "Tourmaline", description: "Shields against negativity, reduces pain, aids sleep", image: "/assets/Tourmaline.png" },
