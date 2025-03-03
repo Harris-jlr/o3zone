@@ -82,9 +82,9 @@ export default {
   data() {
     return {
       frequencies: [
-      { Name: "Delta", title: "0.5-4Hz", description: "For deep sleep enhancement and recovery", image: require('waves/delta.png') },
-      { Name: "Theta", title: "4-7Hz", description: "Assists creativity, memory, and meditation", image: require('waves/theta.png') },
-      { Name: "Alpha", title: "7-12Hz", description: "Improves learning and calm focus", image: require('waves/alpha.png') },
+      { Name: "Delta", title: "0.5-4Hz", description: "For deep sleep enhancement and recovery", image: require('/waves/delta.png') },
+      { Name: "Theta", title: "4-7Hz", description: "Assists creativity, memory, and meditation", image: require('/waves/theta.png') },
+      { Name: "Alpha", title: "7-12Hz", description: "Improves learning and calm focus", image: require('/waves/alpha.png') },
       { Name: "Beta", title: "12-30Hz", description: "Enhances performance and quick thinking", image: require('/waves/beta.png') },
     ],
       benefits: [
