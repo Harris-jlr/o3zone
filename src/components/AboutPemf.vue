@@ -82,17 +82,17 @@ export default {
   data() {
     return {
       frequencies: [
-        { Name: "Delta", title: "0.5-4Hz", description: "For deep sleep enhancement and recovery", image: "/src/assets/waves/delta.png" },
-        { Name: "Theta", title: "4-7Hz", description: "Assists creativity, memory, and meditation", image: "/src/assets/waves/theta.png" },
-        { Name: "Alpha", title: "7-12Hz", description: "Improves learning and calm focus", image: "/src/assets/waves/alpha.png" },
-        { Name: "Beta", title: "12-30Hz", description: "Enhances performance and quick thinking", image: "/src/assets/waves/beta.png" },
-      ],
+      { Name: "Delta", title: "0.5-4Hz", description: "For deep sleep enhancement and recovery", image: require('waves/delta.png') },
+      { Name: "Theta", title: "4-7Hz", description: "Assists creativity, memory, and meditation", image: require('waves/theta.png') },
+      { Name: "Alpha", title: "7-12Hz", description: "Improves learning and calm focus", image: require('waves/alpha.png') },
+      { Name: "Beta", title: "12-30Hz", description: "Enhances performance and quick thinking", image: require('/waves/beta.png') },
+    ],
       benefits: [
-        { text: "Ease Muscle Tension", image: "/src/assets/svg/Ease_Muscle_Tension_Instantly.svg" },
-        { text: "Unlock Restful, Deep Sleep", image: "/src/assets/svg/Unlock_Restful_Deep_Sleep.svg" },
-        { text: "Boost Circulation", image: "/src/assets/svg/Boost_Circulation_for_Total_Vitality.svg" },
-        { text: "Fast-Track Recovery", image: "/src/assets/svg/Fast-Track_Your_Recovery.svg" },
-        { text: "Power Up Energy Naturally", image: "/src/assets/svg/files/Power_Up_Your_Energy_Levels_Naturally.svg" },
+        { text: "Ease Muscle Tension", image: "/svg/Ease_Muscle_Tension_Instantly.svg" },
+        { text: "Unlock Restful, Deep Sleep", image: "/svg/Unlock_Restful_Deep_Sleep.svg" },
+        { text: "Boost Circulation", image: "/svg/Boost_Circulation_for_Total_Vitality.svg" },
+        { text: "Fast-Track Recovery", image: "/svg/Fast-Track_Your_Recovery.svg" },
+        { text: "Power Up Energy Naturally", image: "/svg/files/Power_Up_Your_Energy_Levels_Naturally.svg" },
       ],
       gemstones: [
         { title: "Tourmaline", description: "Shields against negativity, reduces pain, aids sleep", image: "/src/assets/Tourmaline.png" },
