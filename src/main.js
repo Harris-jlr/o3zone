@@ -6,6 +6,3 @@ import './style.css';
 const app = createApp(App);
 app.use(router);
 app.mount('#app');
-
-console.log("🔥 Vue App Mounted!");
-

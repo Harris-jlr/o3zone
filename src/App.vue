@@ -1,6 +1,5 @@
 <template>
   <div class="w-full mx-px center">
-    <p class="text-white">App.vue is Mounted</p> <!-- Debugging Text -->
     <router-view />
     <myfooter />
   </div>
